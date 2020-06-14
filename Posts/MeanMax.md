@@ -1,4 +1,4 @@
-{Tags:["CodinGame", "AI", "Simulation", "Post-Mortem"], Title: "Mean Max", Description: "Post mortem of the Mean Max challenge on CodinGame", Created: "2017-11-28", Category: "CodinGame" }
+{"Tags":["CodinGame", "AI", "Simulation", "Post-Mortem"], "Title": "Mean Max", "Description": "Post mortem of the Mean Max challenge on CodinGame", "Created": "2017-11-28", "Category": "CodinGame" }
 # Mean max
 
 Had a great time doing this contest! Challenging and fun.
