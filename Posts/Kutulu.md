@@ -1,4 +1,4 @@
-{"Tags":["CodinGame", "AI", "Post-Mortem"], "Title": "Kutulu", "Description": "Post mortem of the Code of kutulu challenge on CodinGame", "Created": "2018-06-26", "Category": "CodinGame" }
+{"Tags":["CodinGame", "AI", "Post-Mortem"], "Id":"kutulu", "Title": "Kutulu", "Description": "Post mortem of the Code of kutulu challenge on CodinGame", "Created": "2018-06-26", "Category": "CodinGame" }
 # Code of Kutulu
 
 Complex little game with loads of fun and frustration (the ranking random madness). 5th, C# and bearly beaten by MSmiths.
