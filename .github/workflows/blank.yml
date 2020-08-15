@@ -1,0 +1,14 @@
+name: CI
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: fjogeleit/http-request-action@master
+      with:
+        url: 'http://blog.kvanli.com/api/blog/refresh'
+        method: 'GET'
