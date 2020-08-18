@@ -1,7 +1,8 @@
 {"Tags":["CodinGame", "AI", "Post-Mortem"], "Id":"kutulu", "Title": "Kutulu", "Description": "Post mortem of the Code of kutulu challenge on CodinGame", "Created": "2018-06-26", "Category": "CodinGame" }
 # Code of Kutulu
 
-Complex little game with loads of fun and frustration (the ranking random madness). 5th, C# and bearly beaten by MSmiths.
+Code of Kutulu was a CodinGame community-contest, hosted in 2018 by eulerscheZahl, JohnnyYuge and nmahoude.
+I found it to be a complex game with loads of fun and frustration (the ranking random madness). Coded in C#, ended 5th and was bearly beaten by MSmiths.
 
 ## Strategy
 

@@ -1,8 +1,7 @@
 {"Tags":["CodinGame", "AI", "Simulation", "Post-Mortem"], "Id":"meanmax", "Title": "Mean Max", "Description": "Post mortem of the Mean Max challenge on CodinGame", "Created": "2017-11-28", "Category": "CodinGame" }
-# Mean max
+# Mean Max
 
-Had a great time doing this contest! Challenging and fun.
-8th and C#!
+Mean Max was the first Community-contest done by CodinGame. It was created by Agade, Magus, pb4 and reCurse in 2017 without using the CodinGame SDK. This was the first time I ended in the top 10 (8th) and started to get a grip on contests in C#. Huge struggles to sleep on the night before the monday (last day) as I saw my rank ranging from 1st to 10th (:scream:).
 
 ## Strategy
 Some kind of mutating search with a few crossovers. (not sure if I can call it a GA since I added too many new random genomes every round)
