@@ -6,7 +6,7 @@
 
 DllCopy is an utility tool to copy files from a location to another. It is called DllCopy because the initial need was for C# development.
 
-![Layout](https://raw.githubusercontent.com/Illedan/DllCopy/master/Capture.PNG "DllCopy")
+![Layout](https://raw.githubusercontent.com/Illedan/DllCopy/master/Capture.PNG)
 
 
 ## Usage
