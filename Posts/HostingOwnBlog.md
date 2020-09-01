@@ -6,7 +6,7 @@ tl&dr: Blog is hosted on Digital Ocean by using Nginx as a Reversed Proxy. Backe
 
 The intention of this post is to describe how I created this blog. It will, hopefully, serve as a guide and contain explainations on how to do it yourself. Feel free to ask me on Twitter if you have questions.
 
-I woudl like corrections or guides if I did something terribly wrong or insufficient, as it is the first time I host the whole thing myself.
+I would love corrections or guides if I did something terribly wrong or insufficient, as it is the first time I host the whole thing myself. (I know there are platforms for blogging, but the intention of this blog is for my own learning.)
 
 ## Hosting
 
@@ -20,16 +20,16 @@ Should be decent enough to keep the blog alive. I might consider uppgrading it t
 
 ## Domain
 
-Bought a name of (namecheap.com)[https://www.namecheap.com] and followed the instructions in (this post)[https://www.digitalocean.com/community/tutorials/how-to-point-to-digitalocean-nameservers-from-common-domain-registrars].
+Bought a domain of (namecheap.com)[https://www.namecheap.com] and followed the instructions in (this post)[https://www.digitalocean.com/community/tutorials/how-to-point-to-digitalocean-nameservers-from-common-domain-registrars].
 
-Why namecheap? No idea. I guess any provider would work. Also, I liked the free email redirect gotten with the domain. 
+Why namecheap? No idea. I guess any provider would work.
 
 ## Nginx
 
 Guide to (setup Nginx)[https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04]
 
 ()
-Create file for your domain in `/etc/nginc/sites-availiable/kvanli.com.conf`
+Create file for my domain in `/etc/nginc/sites-availiable/kvanli.com.conf`
 
 ### HTTPS
 
