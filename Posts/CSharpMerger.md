@@ -2,7 +2,7 @@
 
 # C# merger
 
-This is a tool to merge multiple C# files into 1 file, while merging the `using` statements to avoid duplicates. The usecase for this tool is CodinGame where you can only submit 1 file. Personally I use it together with (CG-sync)[https://www.codingame.com/forum/t/codingame-sync-beta/614] where I point CG-sync to the output file.
+This is a tool to merge multiple C# files into 1 file, while merging the `using` statements to avoid duplicates. The usecase for this tool is CodinGame where you can only submit 1 file. Personally I use it together with [CG-sync](https://www.codingame.com/forum/t/codingame-sync-beta/614) where I point CG-sync to the output file.
 
 - clone https://github.com/Illedan/CG-sharpmerger
 - cd /CG-sharpmerger/src/CSharpMerger
