@@ -2,14 +2,34 @@
 
 # React Native
 
-Time to learn React native. My goal is to feel the difference between Xamarin and React Native in creating apps fast.
+Time to learn React native. I have always thought React Native is a bloated webapp, in reality it feels like Xamarin. Just without C#. My goal is to feel the difference between Xamarin and React Native in structuring apps.
 
-I followed this guide to setup React Native on my MacBook Pro:
-https://medium.com/@pabasarajayawardhana/react-native-environment-set-up-on-mac-os-with-xcode-and-android-studio-324e64c8552e
+I will look into setting up React Native and creating a navigation scheme where I can read this blog in the app.
+
+## Setup
+
+[Getting started on Macbook Pro]](https://medium.com/@pabasarajayawardhana/react-native-environment-set-up-on-mac-os-with-xcode-and-android-studio-324e64c8552e)
+
+Also recommend reading this [post](https://levelup.gitconnected.com/getting-started-with-react-native-in-2019-build-your-first-app-a41ebc0617e2) about understanding the concepts found in the app.
 
 
-Initial work:
-https://levelup.gitconnected.com/getting-started-with-react-native-in-2019-build-your-first-app-a41ebc0617e2
+## Loading data
+
+
+
+
+```javascript
+    async componentDidMount() {
+        try {
+            const httpResponse = await fetch('uri');
+            const result = await httpResponse.json();
+            this.setState({state: result.data, loading: false});
+        } catch(err) {
+            // Retry or show cheesy message about world is down and come back alter.
+        }
+    }
+
+```
 
 ## How does it work
 
@@ -39,9 +59,14 @@ class Test extends Component{
 }
 ```
 
+## Note to self before publishing.
 
-## Android and IOS
+https://medium.com/@alialhaddad/fetching-data-in-react-native-d92fb6876973
+
+https://blog.jscrambler.com/how-to-set-up-and-use-navigators-in-react-native/   
+
+https://www.npmjs.com/package/react-native-game-engine
+
+https://blog.logrocket.com/flutter-vs-react-native-vs-xamarin/
 
 https://www.skcript.com/svr/how-to-create-custom-component-in-react-native/
-
-#
