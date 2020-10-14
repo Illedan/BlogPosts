@@ -28,7 +28,7 @@ Once the tool is installed you can use the console command `openrepo`. This will
 
 ### Searching
 
-Once you have your configuration set up, you can use the Arrow keys to navigate up and down or start typing to filter the list. Use space to filer on multiple words, as example:
+Once you have your configuration set up, you can use the Arrow keys to navigate up and down or start typing to filter the list. Use space to filter on multiple words, as example:
 ```
 Filter: Project Xamarin
 Hits: Project.Test.Xamarin, Xamarin.Project, XamarinProject, Xamarin Project Other, etc.
