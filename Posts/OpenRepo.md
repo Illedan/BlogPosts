@@ -95,7 +95,7 @@ Personal:
 `nuget` would send the user to nuget.org and `cool user` to Illedan's github profile.
 This could also be folders in your file system, scripts, programs, files, online resources, etc.
 
-# Running on Windows with AutoHotkey
+## Running on Windows with AutoHotkey
 One approach to working with openrepo on a windows machine is to use an AutoHotkey script to fire it and if it is already running, just bring it in to view.
 
 First, you will need to install AutoHotkey https://www.autohotkey.com/.
@@ -128,7 +128,7 @@ Snake:
 ```
 Fun addon to play snake within the tool itself. The time indicates time between each move. Higher speed equals more point each food. Use arrow keys to navigate, `ENTER` to restart and `ESC` to quit. Good luck & Have Fun :) 
 
-# Issues
+## Issues
 
 Selecting `OpenRepo - Create issue` navigates you to the github page of this project with the last exception set as body for an Issue.
 
