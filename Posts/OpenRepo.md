@@ -22,7 +22,7 @@ Code: https://github.com/Illedan/OpenRepo
 
 ## Usage
 
-Once the tool is installed you can use the console command `openrepo`. This will start the tool and show the config in your default `.txt`editor if it is your first startup.
+Once the tool is installed you can use the console command `openrepo`. This will start the tool and show the config in your default `.txt` editor if it is your first startup.
 
 ### Searching
 
