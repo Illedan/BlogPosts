@@ -56,7 +56,7 @@ Personal:
 
 Lines starting far left is considered a Provider and every line below it with indentation is configuration used by that Provider (see provider information below).
 
-If your path contain spaces you have to wrap it in `"`. Ex:
+If your path contain spaces you have to wrap it in ". Ex:
 ```
 Local:
     "C:/Location with space/Repos" pt:sln ptt:bat 
