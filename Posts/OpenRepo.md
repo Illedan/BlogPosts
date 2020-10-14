@@ -95,7 +95,6 @@ Personal:
 `nuget` would send the user to nuget.org and `cool user` to Illedan's github profile.
 This could also be folders in your file system, scripts, programs, files, online resources, etc.
 
-
 ### Snake
 
 ```
