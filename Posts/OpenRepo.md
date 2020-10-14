@@ -64,7 +64,7 @@ Local:
 Personal:
     "nuget openrepo package example" "https://www.nuget.org/packages/Illedan.OpenRepo/"
 ```
-(ptt means ProgramTypeTop of ending `.sln` or `.bat` found in the root directory of the repository)
+(ptt means ProgramTypeTop of ending `.bat` found in the root directory of the repository)
 
 ## Providers
 
