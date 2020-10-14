@@ -95,6 +95,16 @@ Personal:
 `nuget` would send the user to nuget.org and `cool user` to Illedan's github profile.
 This could also be folders in your file system, scripts, programs, files, online resources, etc.
 
+
+### Snake
+
+```
+Snake:
+    100
+```
+Fun addon to play snake within the tool itself. The time indicates time between each move. Higher speed equals more point each food. Use arrow keys to navigate, `ENTER` to restart and `ESC` to quit. Good luck & Have Fun :) 
+
+
 ## Running on Windows with AutoHotkey
 One approach to working with openrepo on a windows machine is to use an AutoHotkey script to fire it and if it is already running, just bring it in to view.
 
@@ -119,14 +129,6 @@ This script will trigger when the ```F1``` key is pressed
 Finally run the AutoHotkey script by double clicking it. 
 
 Openrepo should now come in to view when pressing F1
-
-### Snake
-
-```
-Snake:
-    100
-```
-Fun addon to play snake within the tool itself. The time indicates time between each move. Higher speed equals more point each food. Use arrow keys to navigate, `ENTER` to restart and `ESC` to quit. Good luck & Have Fun :) 
 
 ## Issues
 
