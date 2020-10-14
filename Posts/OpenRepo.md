@@ -8,6 +8,8 @@ Keep a console open with this tool running and use it as your main source of nav
 Nuget package: https://www.nuget.org/packages/Illedan.OpenRepo/0.0.25
 Code: https://github.com/Illedan/OpenRepo
 
+![Usage](https://github.com/Illedan/BlogPosts/blob/master/Images/openrepo.gif?raw=true)
+
 ## Prerequisits
 
 - `dotnet` installed on the machine.
