@@ -52,6 +52,7 @@ Local:
 Personal:
     nuget https://www.nuget.org
 ```
+(pt means ProgramType of ending `.sln` or `.bat` found in the entire repository)
 
 Lines starting far left is considered a Provider and every line below it with indentation is configuration used by that Provider (see provider information below).
 
@@ -63,6 +64,7 @@ Local:
 Personal:
     "nuget openrepo package example" "https://www.nuget.org/packages/Illedan.OpenRepo/"
 ```
+(ptt means ProgramTypeTop of ending `.sln` or `.bat` found in the root directory of the repository)
 
 ## Providers
 
@@ -79,8 +81,8 @@ Finds all folders inside a folder.
 
 Possible Parameters:
 - `prefix:customname` Applies `customname` in front of all folder from this source. Needed if you have many equal names. (Recommended to add a divider like / at the end)
-- `pt:programtype` Adds Actions to start extensions of programtype. Example is `pt:sln` which finds all solutions inside the repo. Logs if there is none, starts the first if one and gives a list to select if there are multiple.
-- `ptt:programtype` Adds Actions to start extensions of programtype. Example is `ptt:md` which finds all solutions inside the repo on the root level. Logs if there is none, starts the first if one and gives a list to select if there are multiple.
+- `pt:programtype` (pt means ProgramType) Adds Actions to start extensions of programtype. Example is `pt:sln` which finds all solutions inside the repo. Logs if there is none, starts the first if one and gives a list to select if there are multiple.
+- `ptt:programtype` (ptt means ProgramTypeTop) Adds Actions to start extensions of programtype. Example is `ptt:md` which finds all solutions inside the repo on the root level. Logs if there is none, starts the first if one and gives a list to select if there are multiple.
 
 Actions:
 - `Open` Opens the folder in explorer/finder
