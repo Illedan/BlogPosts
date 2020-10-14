@@ -22,7 +22,7 @@ Code: https://github.com/Illedan/OpenRepo
 
 ## Usage
 
-Once the tool is installed you can use the command `openrepo` in the console. This will start the tool and instantly show the config in your default `.txt`editor. (only on the first startup)
+Once the tool is installed you can use the console command `openrepo`. This will start the tool and show the config in your default `.txt`editor if it is your first startup.
 
 ### Searching
 
@@ -33,11 +33,11 @@ Hits: Project.Test.Xamarin, Xamarin.Project, XamarinProject, Xamarin Project Oth
 ```
 
 Use `ENTER` to select an option and `TAB` to refresh with new config values if you updated elsewhere.
-
+Once an option is selected a set of sub-options are shown (unless there is only 1 which is activated instantly)
 
 ### Configuration
 
-Use the `OpenRepo - Edit config` option which is searchable in the list to open the configuration file
+Use `OpenRepo - Edit config` option to open the configuration file. This command is searchable like every other item you add to the list.
 
 The configuration is a txt file located in appdata on Windows and application data on Mac. The initial config created contains examples starting with `#` making that line a comment. Example:
 ```
@@ -51,15 +51,16 @@ Personal:
     nuget https://www.nuget.org
 ```
 
-Lines starting far left is considered a Provider and every line below it is configuration used by that Provider (see provider information below).
+Lines starting far left is considered a Provider and every line below it with indentation is configuration used by that Provider (see provider information below).
 
 If your path contain spaces you have to wrap it in '"'. Ex:
 ```
+Local:
+    "C:/Location with space/Repos" pt:sln ptt:bat 
+
 Personal:
     "nuget openrepo package example" "https://www.nuget.org/packages/Illedan.OpenRepo/"
 ```
-This enables you to search for all the keywords in case you connect multiple words with the value.
-
 
 ## Providers
 
@@ -118,6 +119,14 @@ This script will trigger when the ```F1``` key is pressed
 Finally run the AutoHotkey script by double clicking it. 
 
 Openrepo should now come in to view when pressing F1
+
+### Snake
+
+```
+Snake:
+    100
+```
+Fun addon to play snake within the tool itself. The time indicates time between each move. Higher speed equals more point each food. Use arrow keys to navigate, `ENTER` to restart and `ESC` to quit. Good luck & Have Fun :) 
 
 # Issues
 
