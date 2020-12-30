@@ -6,7 +6,7 @@ I find that most of my commits on private packages is related to patch updates, 
 
 ## Version file
 
-I created a version.config file on the root of my project and added : '1.0' (my current version). To read this into an environment variable I used cat and some regex to remove unwanted chars:
+I created a version.config file on the root of my project and added : `1.0` (my current version). To read this into an environment variable I used cat and some regex to remove unwanted chars:
 ```
     - name: Read VERSION file
       id: getversion
@@ -37,6 +37,17 @@ Using this while targetting the packed .nupkg caused the package to be pushed ni
     - name: Publish Nuget
       run: dotnet nuget push src/OpenRepo/nupkg/*.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{ secrets.NUGETORG }} --skip-duplicate
 ```
+
+## Suffix
+
+Before I found the argument for dotnet pack I tried to use 
+
+```
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionSuffix>0</VersionSuffix>
+```
+
+And updating the suffix in the build. This ended up building pre packages which is not automatically updated with `dotnet tool` unless specified, which is not my intention, as I would have to bump the package to release manually (with a build or something causing my to think more than needed). 
 
 ## Result
 
