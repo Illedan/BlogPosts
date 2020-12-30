@@ -13,7 +13,7 @@ I created a version.config file on the root of my project and added : '1.0' (my 
       run: echo "::set-output name=version::$(cat version.config | grep -oh "[0-9]\.[0-9]")"
 ```
 
-The reason for this grep is an unwanted <FEFF> char appearing in front of my version for no particular reason, costing me more time than I care to admit as it was invisible in every editor, terminal, browser I tried. 
+The reason for this grep is an unwanted `<FEFF>` char appearing in front of my version for no particular reason, costing me more time than I care to admit as it was invisible in every editor, terminal, browser I tried. 
 (╯°□°)╯︵ ┻━┻  
 
 This environment variable is found by using `${{ steps.getversion.outputs.version }}`.
