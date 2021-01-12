@@ -88,6 +88,17 @@ Actions:
 - `Open` Opens the folder in explorer/finder
 - `Web` Opens a browser to the remote location of the repository. Only shows if this is a git repository.
 
+#### Scripts
+
+A local repository can also have scripts which is customized by the user. As example my own config:
+```
+Local:
+    /Users/erikkvanli/Repos pt:sln ptt:md "code:code {{path}}"
+```
+
+Everything not prefix, pt or ptt will end as a script, remember to use " for spaces and `{{path}}` to get the path of selection. My script is used to open vscode on the given folder being handy when there is no .sln to open. Scripts doesn't support " inside the hyphens, so you have to create a separate script taking the path as input to handle this case.
+
+
 ### Personal
 
 Here you can add a key + a value to link to. As the example here:
