@@ -1,4 +1,4 @@
-{"Tags":["DotNet", "C#", "NuGet"], "Id": "refit", "Title": "Refit", "Description": "Rest library for .NET", "Created": "2022-02-03", "Category": "DotNet", "IsDraft": false}
+{"Tags":["DotNet", "NuGet"], "Id": "refit", "Title": "Refit", "Description": "Rest library for .NET", "Created": "2022-02-03", "Category": "DotNet", "IsDraft": false}
 
 # Refit
  
