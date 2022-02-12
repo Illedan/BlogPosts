@@ -1,4 +1,4 @@
-{"Tags":["Book"], "Id": "brainrules", "Title": "Brain rules for baby", "Description": "Small collection of notes about the Book Brain Rules for Baby", "Created": "2022-02-09", "Category": "Books", "IsDraft": true}
+{"Tags":["Book"], "Id": "brainrules", "Title": "Brain rules for baby", "Description": "Small collection of notes about the Book Brain Rules for Baby", "Created": "2022-02-09", "Category": "Books", "IsDraft": false}
 
 # Brain Rules for Baby
 
