@@ -1,4 +1,4 @@
-{"Tags":["Book"], "Id": "turningtheship", "Title": "Turning the ship around", "Description": "Notes about the book Turning the ship around", "Created": "2022-02-20", "Category": "Books", "IsDraft": true}
+{"Tags":["Book"], "Id": "turningtheship", "Title": "Turning the ship around", "Description": "Notes about the book Turning the ship around", "Created": "2022-02-20", "Category": "Books", "IsDraft": false}
 
 # Turning the ship around
 
