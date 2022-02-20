@@ -16,7 +16,7 @@ Research shows that any kind of screen before the age of 2 gives no value. And t
 
 ## Rules
 
-A kid screaming at a store because it can't get candy is never a pleasant view. An often response is trying to stopping the embarrassment, thought this might only create a worse situation. A better response is to acknowledge the feeling and explaining why he/she feels that way. Talking about the reasons for a particular event or rule helps to underline why the rule exists, nobody likes to be forced into actions without proper reasoning. Often a kid might do unwanted behavior, like throwing books down the stairs, this is mostly attention seeking and could be ignored unless a known rule is broken, while one should praise a child following a rule. The last part is as important as giving response to a broken rule.
+A kid screaming at a store because it can't get candy is never a pleasant view. An often response is trying to stop the embarrassment, thought this might only create a worse situation. A better response is to acknowledge the feeling and explaining why he/she feels that way. Talking about the reasons for a particular event or rule helps to underline why the rule exists, nobody likes to be forced into actions without proper reasoning. Often a kid might do unwanted behavior, like throwing books down the stairs, this is mostly attention seeking and could be ignored unless a known rule is broken, while one should praise a child following a rule. The last part is as important as giving response to a broken rule.
 
 ## Happiness and feelings
 
