@@ -1,0 +1,13 @@
+{"Tags":["Book"], "Id": "blackbox", "Title": "Black Box Thinking", "Description": "Notes about the book Black Box Thinking", "Created": "2022-02-12", "Category": "Books", "IsDraft": true}
+
+# Black Box Thinking
+This book is about looking at the data from the Black Box found in airplanes and the intense learning process of the aviation industry. 
+
+## Failing
+Plan to fail and fail fast is a strong indicator of future success, because the project will learn a lot, but it can't be done without proper measurements first. How can a failure be tracked, if there is no measurement. Everything needs validation, and if there is little to validate from, validate from what is not there, as seen during the wars where planes would be reinforced based on seen bullets holes after a fight. It was far better to see where there were no bullets, as the planes with bullet holes in those locations didn't return.
+
+The culture on a workplace should praise reporting errors and not be strict about it. This was a problem within the healthcare, as failures are frowned upon, resulting in far less errors reported and a lot of errors repeated, like having too equal boxes of medicine getting mixed in usage. Another example from the early days of aviation is having equal handles for the landing gear and something totally different next to each other, causing pilots to use the wrong lever in stressed situations. Doing simple Randomized controlled trial (RCT) tests can yield great results in finding design flaws in various operations. 
+
+A lot of people will focus on confirming their ideas over and over and never trying to invalidate their ideas. One can't really be sure about something unless something else is tried too. This principle can be found in nature where evolution happens, a lot of failing for the winners to be exceptional. An evolutionary process is found among top performers in sports where they focus on micro optimizations and minor gains all the way, instead of just trying to win. 
+
+Premortem evaluation is a process of inviting potential users to a product test and giving them the task to name something that could break the idea. This process is a way to spot potential flaws fast and gives the correct focus to the project where it starts by running towards errors, instead of assuming results. If the project ends badly, it is never due to the result itself, it is because of a bad process. 
