@@ -2,7 +2,7 @@
 
 # Openrepo
 
-Original post: https://www.kvanli.com/openrepo
+[Original post](https://kvanli.com/stories/openrepo)
 There are now additional configurations usable in the tool.
 
 ## Settings
